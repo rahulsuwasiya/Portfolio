@@ -1,8 +1,18 @@
-function Header(){
 
-    return(
-        <div>Header Component</div>
-    )
+function Header() {
+  return (
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+  )
 }
 
 export default Header;
